@@ -11,7 +11,7 @@ import java.util.Stack;
  * [解决思路]：
  * 栈是先进后出，队列是先进先出。在保存数据时，通过两栈之间调整顺序，从而满足队列数据结构。
  */
-public class Solution1 {
+public class StackImplementQueue {
     static class CQueue {
 
         private Stack<Integer> mInStack;

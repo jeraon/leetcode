@@ -15,7 +15,7 @@ package _2021_08._0816_0822;
  * public int fib(int n) { if (n == 0) return 0; if (n == 1) return 1; return
  * fib(n - 1) + fib(n - 2); } 这种解法缺点是出现许多重复子问题； 第二种解法： 自底向上遍历；
  */
-public class Solution2 {
+public class Fibonacci {
 
     public static int fib(int n) {
         if (n == 0) return 0;
